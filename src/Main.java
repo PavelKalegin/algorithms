@@ -3,6 +3,7 @@ public class Main {
         //Factorials.run();
         //GreedyAlg.run();
         //Haffman.run();
-        PriorityQueue.run();
+        //PriorityQueue.run();
+        BinarySearch.run();
     }
 }
