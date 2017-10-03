@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="defe2252-f108-437e-9afe-c27287f56916" name="Default" comment="Priority queue implementing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/PriorityQueue.java" />
+    <list default="true" id="defe2252-f108-437e-9afe-c27287f56916" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Haffman.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Haffman.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/InternalNode.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/InternalNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/LeafNode.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/LeafNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithms/Node.class" afterPath="$PROJECT_DIR$/out/production/Algorithms/Node.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -313,6 +308,14 @@
       <option name="presentableId" value="Default" />
       <updated>1505412497516</updated>
     </task>
+    <task id="LOCAL-00001" summary="Priority queue implementing">
+      <created>1507063345059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1507063345059</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
