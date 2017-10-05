@@ -6,7 +6,7 @@ class MergeSort {
     private static long count;
 
     static void run() {
-
+        //BufferedReader reader  = new BufferedReader(new InputStreamReader(System.in));
         try(BufferedReader reader  = new BufferedReader(new FileReader("input.txt"))){
 
             int size = Integer.parseInt(reader.readLine());

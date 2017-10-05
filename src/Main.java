@@ -5,6 +5,10 @@ public class Main {
         //Huffman.run();
         //PriorityQueue.run();
         //BinarySearch.run();
-        MergeSort.run();
+        //MergeSort.run();
+        long starTime = System.currentTimeMillis();
+        QuickSort3.run();
+        long finishTime = System.currentTimeMillis();
+        System.out.println("\n" + (finishTime-starTime) + " ms");
     }
 }
