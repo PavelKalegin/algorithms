@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
-public final class Haffman {
+public final class Huffman {
 
 
     public static void run(){
@@ -88,7 +88,7 @@ class Node implements Comparable<Node>{
     void buildCode(String code){
         this.code = code;
     }
-    public Node(int sum) {
+    Node(int sum) {
         this.sum = sum;
     }
     @Override
@@ -98,9 +98,9 @@ class Node implements Comparable<Node>{
 }
 
 class InternalNode extends Node {
-    Node left,right;
+    private Node left,right;
 
-    public InternalNode(Node left, Node right) {
+    InternalNode(Node left, Node right) {
         super(left.sum + right.sum);
         this.left = left;
         this.right = right;
@@ -115,7 +115,7 @@ class InternalNode extends Node {
 }
 
 class LeafNode extends Node{
-    char symbol;
+    private char symbol;
 
     @Override
     void buildCode(String code) {
@@ -125,11 +125,11 @@ class LeafNode extends Node{
         }
     }
 
-    public LeafNode(char symbol, int sum) {
+    LeafNode(char symbol, int sum) {
         super(sum);
         this.symbol = symbol;
     }
-    public LeafNode(int sum){
+    LeafNode(int sum){
         super(sum);
     }
 }
