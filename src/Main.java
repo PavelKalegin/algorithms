@@ -6,8 +6,10 @@ public class Main {
         //PriorityQueue.run();
         //BinarySearch.run();
         //MergeSort.run();
+        //QuickSort3.run();
+
         long starTime = System.currentTimeMillis();
-        QuickSort3.run();
+        Sequences.run();
         long finishTime = System.currentTimeMillis();
         System.out.println("\n" + (finishTime-starTime) + " ms");
     }

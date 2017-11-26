@@ -13,7 +13,6 @@ class QuickSort3 {
             int m = Integer.parseInt(inputs[1]);
             int[] ls = new int[n];
             int[] rs = new int[n];
-            //int[] points = new int[m];
             StringBuilder builder = new StringBuilder("");
             for (int i = 0; i < n; i++) {
                 inputs = reader.readLine().split(" ");
