@@ -7,10 +7,13 @@ public class Main {
         //BinarySearch.run();
         //MergeSort.run();
         //QuickSort3.run();
-
-        long starTime = System.currentTimeMillis();
         Sequences.run();
-        long finishTime = System.currentTimeMillis();
-        System.out.println("\n" + (finishTime-starTime) + " ms");
+
+
+
+        //long starTime = System.currentTimeMillis();
+//        long finishTime = System.currentTimeMillis();
+//        System.out.println("\n" + (finishTime-starTime) + " ms");
+
     }
 }
