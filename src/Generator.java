@@ -17,7 +17,6 @@ public class Generator {
             for (int i= 0; i<m;i++){
                 printWriter.print(Math.abs(random.nextInt()) + " ");
             }
-            printWriter.close();
         } catch (FileNotFoundException e){
             e.printStackTrace();
         }

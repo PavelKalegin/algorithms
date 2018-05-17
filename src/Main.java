@@ -7,7 +7,8 @@ public class Main {
         //BinarySearch.run();
         //MergeSort.run();
         //QuickSort3.run();
-        Sequences.run();
+        //Sequences.run();
+        EditDistance.run();
 
 
 
