@@ -8,7 +8,8 @@ public class Main {
         //MergeSort.run();
         //QuickSort3.run();
         //Sequences.run();
-        EditDistance.run();
+        //EditDistance.run();
+        Knapsack.run();
 
 
 

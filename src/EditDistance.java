@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-class EditDistance {
+final class EditDistance {
     static void run(){
         task();
     }
