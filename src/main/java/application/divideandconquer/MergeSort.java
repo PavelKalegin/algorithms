@@ -1,3 +1,5 @@
+package application.divideandconquer;
+
 import java.io.*;
 
 class MergeSort {
