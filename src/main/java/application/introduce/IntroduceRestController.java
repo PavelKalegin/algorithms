@@ -38,6 +38,5 @@ public class IntroduceRestController {
     {
         return introduceService.getBiggestCommonDivider(n, m);
     }
-
     //endregion
 }
