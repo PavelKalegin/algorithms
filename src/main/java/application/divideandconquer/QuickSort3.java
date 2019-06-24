@@ -3,7 +3,7 @@ package application.divideandconquer;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.util.Arrays;
 
 class QuickSort3 {
 
@@ -58,4 +58,3 @@ class QuickSort3 {
 
 
 }
-
